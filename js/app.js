@@ -13,7 +13,7 @@ let myButton = document.querySelector('button');
 function questionOne() {
   let ans = '';
   console.log('test1');
-  ans = prompt('What I born in Knoxville, TN?\nY/N');
+  ans = prompt('Was I born in Knoxville, TN?\nY/N');
   //   if (ans === null || ans !== 'Y' || ans !== 'N' || ans !== 'n' || ans !== 'y') {
   //     // console.log('that answer did not work')
   //     alert('Please provide an answer!'); } else 
@@ -39,7 +39,7 @@ function questionOne() {
 function questionTwo() {
   let ans = '';
   console.log('test2');
-  ans = prompt('Was I an combat medic in the arm?\nY/N');
+  ans = prompt('Was I a combat medic in the Army?\nY/N');
   //   if (ans === null || ans !== 'Y' || ans !== 'N' || ans !== 'n' || ans !== 'y') {
   //     // console.log('that answer did not work')
   //     alert('Please provide an answer!'); } else 
@@ -151,7 +151,11 @@ function startQuiz() {
   let totalRight = q1 + q2 + q3 + q4 + q5;
   const storedName = localStorage.getItem('name');
   alert(`${storedName}, you got ${totalRight} correct answers.`);
-  document.getElementsByName;
+  document.getElementById('li1').style.border = '1px solid rgb(255, 255, 255)';
+  document.getElementById('li2').style.border = '1px solid rgb(255, 255, 255)';
+  document.getElementById('li3').style.border = '1px solid rgb(255, 255, 255)';
+  document.getElementById('li4').style.border = '1px solid rgb(255, 255, 255)';
+  document.getElementById('li5').style.border = '1px solid rgb(255, 255, 255)';
 }
 
 myButton.onclick = () => {
