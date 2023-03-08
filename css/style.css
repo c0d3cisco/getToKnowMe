@@ -1,0 +1,23 @@
+ul {
+    padding-left: 5px;
+    width: max(50%, 500px);
+}
+
+li {
+    border: 1px solid rgb(0, 0, 0);
+    list-style: none;
+}
+
+h1 {
+    color: rgba(0, 101, 201,1);
+    background-color: rgb(255, 228, 179);
+    border-right: 5px solid sandybrown;
+    border-bottom: 8px solid sandybrown;
+    border-radius: 25px;
+    text-align: center;
+    width: max(50%, 500px);
+}
+
+header p {
+    width: max(50%, 500px);
+}
