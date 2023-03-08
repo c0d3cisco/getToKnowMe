@@ -1,21 +1,20 @@
-# LAB - Number
+# LAB - 02
 
-## Project Name
+## Get to Know Me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+I build an app that quizzes you over my bio and tells you how many you got right. 
 
-### Author: Student/Group Name
+### Author: Francisco Sanchez
 
 ### Links and Resources
 
-* [submission PR](http://xyz.com)
-* Any Links you used as reference
+* [Button and storing logic](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+* [Change CSS with JS](https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2)
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![Screenshot of Lighthouse!](/screenshot/Screenshot.png "Screenshot")
 
 ### Reflections and Comments
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+Had a log of fun figuring out the button and storing variable logic based on the reading. 
