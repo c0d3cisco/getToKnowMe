@@ -2,7 +2,7 @@
 
 ## Get to Know Me
 
-I build an app that quizzes you over my bio and tells you how many you got right. 
+I build an app that quizzes you over my bio and tells you how many you got right.
 
 ### Author: Francisco Sanchez
 
@@ -17,4 +17,4 @@ I build an app that quizzes you over my bio and tells you how many you got right
 
 ### Reflections and Comments
 
-Had a log of fun figuring out the button and storing variable logic based on the reading. 
+Had a log of fun figuring out the button and storing variable logic based on the reading.
