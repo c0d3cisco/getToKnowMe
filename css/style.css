@@ -1,11 +1,13 @@
+
 ul {
-    padding-left: 5px;
+    
     width: max(50%, 500px);
 }
 
 li {
     border: 1px solid rgb(0, 0, 0);
     list-style: none;
+    padding: 5px;
 }
 
 h1 {
@@ -16,8 +18,33 @@ h1 {
     border-radius: 25px;
     text-align: center;
     width: max(50%, 500px);
+    font-size:xx-large;
+    margin-top: 25px;
+    padding-right: 5px;  /* HOW DO I SHIFT JUST THE CONTENT. RIGHT NOW TEXT ALIGN right IS TOO AGGRESSIVE */
+}
+
+header, main {
+    margin: 10px 50px;
 }
 
 header p {
     width: max(50%, 500px);
+    margin-top: 20px;
 }
+
+h2{
+    font-size: larger;
+    font-style: italic;
+    color: green;
+    margin-top: 35px;
+}
+
+button{
+    margin: 10px 0px;
+}
+
+/* *{
+    border : 1px solid rgb(191, 0, 0); WHY DIDN'T THIS WORK FOR THE header p ELEMENT 
+    WHY DID APPLYING THIS AT THEN WITH A RANDOM PROPERTY RESET EVERYTHING except ul
+    padding-left: 10px;
+} */
