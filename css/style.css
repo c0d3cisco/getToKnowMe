@@ -27,13 +27,24 @@ header, main {
     margin: 10px 50px;
 }
 
-header p {
+#header-p {
     width: max(50%, 500px);
     margin-top: 20px;
 }
 
+#list-p{
+    font: bold large auto, auto;
+    margin-bottom: 15px;
+}
+
+main p {
+    width: max(50%, 500px);
+    margin-top: 20px;
+    color: blueviolet;
+}
+
 h2{
-    font-size: larger;
+    font-size:larger;
     font-style: italic;
     color: green;
     margin-top: 35px;
@@ -42,6 +53,28 @@ h2{
 button{
     margin: 10px 0px;
 }
+
+
+dt{
+    padding: 5px;
+    font: bold medium auto, auto;
+}
+
+dd {
+    padding: 5px 40px;
+}
+
+dl{
+    margin: 10px 0px;
+}
+
+dl p{
+    font: bold large auto, auto;
+}
+
+/* dt, dl, dd{
+    border: 1px solid black;
+} */
 
 /* *{
     border : 1px solid rgb(191, 0, 0); WHY DIDN'T THIS WORK FOR THE header p ELEMENT 

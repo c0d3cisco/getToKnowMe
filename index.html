@@ -7,23 +7,53 @@
         <title>Get To Know Me</title>
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <!-- <script src="CLASS03.js"></script> -->
         
         <!-- <script> ADD SCRIPT TO CHANGE BACKGROUND COLOR </script> -->
     </head>
     <body>
     <header>
         <h1>Quiz Yourself on Me</h1>
-        <p> Hello, my name is Francisco, but I go by Cisco. I was born in Venezuela in 1990. My mom, sister, and I moved to Knoxville, TN when I was in the fifth grade. I went to school there until I joined the army. In the army, I was a combat medic. I returned to Knoxville after four years in the army to get a bachelors in Mechanical Engineering. After graduating, I found a job as a process engineer in a biomedical tech company. They build a software that helps surgeons plan shoulder replacement surgeries (other joints in the future). Through this job, I became inspired to become a software developer and thus here I am. My favorite color is yellow.</p>
-        <script src="js/app_first.js"></script>
+        <p id="header-p"> Hello, my name is Francisco, but I go by Cisco. I was born in Venezuela in 1990. My mom, sister, and I moved to Knoxville, TN when I was in the fifth grade. I went to school there until I joined the army. In the army, I was a combat medic. I returned to Knoxville after four years in the army to get a bachelors in Mechanical Engineering. After graduating, I found a job as a process engineer in a biomedical tech company. They build a software that helps surgeons plan shoulder replacement surgeries (other joints in the future). Through this job, I became inspired to become a software developer and thus here I am. My favorite color is yellow.</p>
+        <dl>
+            <p>Experience</p>
+            <dt>Combat Medic</dt>
+            <dd>Did cool stuff medical stuff in the army.</dd>
+            <dt>Process Engineer</dt>
+            <dd>Currently work as a process Engineer.</dd>
+        </dl>
+        <dl>
+            <p>Education</p>
+            <dt>Biochemistry</dt>
+            <dd>I thought I wanted to go to medical school.</dd>
+            <dt>Mechanical Engineering</dt>
+            <dd>Wanted to build stuff.</dd>
+            <dt>Full Stack JavaScript</dt>
+            <dd>What I'm working on currently.</dd>
+        </dl>
+        <p id="list-p">These are 10 restaurants I don't mind going to any time<p>
+            <ul id="list-10">
+                <li>Chick-Fil-A</li>
+                <li>Chipotle</li>
+                <li>Olive Garden</li>
+                <li>Einstein Bros</li>
+                <li>Starbucks</li>
+                <li>Jack Stack's BBQ</li>
+                <li>Panera</li>
+                <li>Bonefish</li>
+                <li>Wendy's</li>
+                <li>Kefi</li>
+            </ul>
     </header>
     <main>
-        <!-- document print script p element with challenge phrase to custom user. -->
-        <h2>Quiz Time!</h2>
+            <!-- document print script p element with challenge phrase to custom user. -->
+            <h2>Quiz Time!</h2>
+            <!-- <script src="js/app_first.js"></script> -->
         <button>START</button>
         <ul>
-            <li class="list" id="li1">Was I born in Knoxville, TN?</li>
-            <li class="list" id="li2">Was I an combat medic in the Army?</li>
-            <li class="list" id="li3">Did I always know I wanted to be a software developer?</li>
+            <li id="li1">Was I born in Knoxville, TN?</li>
+            <li id="li2">Was I an combat medic in the Army?</li>
+            <li id="li3">Did I always know I wanted to be a software developer?</li>
             <li id="li4">Is my favorite color yellow?</li>
             <li id="li5">Am I happy you are here?</li>
         </ul>
