@@ -158,29 +158,34 @@ function questionSix() {
     if(numberGuess < Infinity){
 
       if(numberGuess >= 0 && numberGuess < 10 ){ 
-        console.log('furthest');
-        //alert('Way off')
+        //console.log('furthest');
+        alert('Way off');
       }else if(numberGuess >= 10 && numberGuess < 20){ 
-        console.log('closer');
-        //alert('Way off')
+        //console.log('closer');
+        alert('At least 5 or more off');
       }
       else if((numberGuess >= 20 && numberGuess < 24) || (numberGuess <= 30 && numberGuess > 26)){
-        console.log('so close');
-        //alert('Way off')
+        //console.log('so close');
+        alert('You\'re with 5');
       }else if (numberGuess === 25){
-        console.log('YOU GOT IT!');
+        //console.log('YOU GOT IT!');
+        alert('WOW! YOU GOT IT!');
         if(i === 0){
-          console.log('AND ON YOUR FIRST TRY');
+          //console.log('AND ON YOUR FIRST TRY');
+          alert('and on your first try?\nAre you psychic?');
         }
         return 1;
       }else{
-        console.log('That wasn\'t in the range...');
+        //console.log('That wasn\'t in the range...');
+        alert('That wasn\'t in the range...');
       }
     }else{
-      console.log('What is not a number ');
+      //console.log('What is not a number');
+      alert('What is not a number');
     }
     if(i === 3){
-      console.log('Aww you tried... well... the answer was 25');
+      //console.log('Aww you tried... well... the answer was 25');
+      alert('Aww you tried... well... the answer was 25');
     }
   }
 }
