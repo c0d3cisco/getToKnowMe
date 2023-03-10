@@ -257,3 +257,7 @@ myButton.onclick = () => {
   startQuiz();
 
 };
+
+
+// let correctanswer = question1 + question2;
+// console.log(correctanswer +'/7')

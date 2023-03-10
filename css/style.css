@@ -28,17 +28,32 @@ h1 {
     text-align: center;
     width: max(50%, 500px);
     font-size:xx-large;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     padding-right: 5px;  /* HOW DO I SHIFT JUST THE CONTENT. RIGHT NOW TEXT ALIGN right IS TOO AGGRESSIVE */
+    height: 1em; 
+    position: relative;
+    margin: 5px;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    right: -25%;
 }
 
 header, main {
     margin: 10px 50px;
+    background-color: coral;
+   justify-content: stretch;
 }
 
 #header-p {
-    width: max(50%, 500px);
-    margin-top: 20px;
+    /* width: max(50%, 500px); */
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: x-large;
+    font-weight: bold;
+
+
 }
 
 #list-p{
@@ -67,20 +82,41 @@ button{
 dt{
     padding: 5px;
     font: bold medium auto, auto;
+    text-align: auto;
+
 }
 
 dd {
     padding: 5px 40px;
+    text-align: auto;
+    display: flex;
 }
 
 dl{
     margin: 10px 0px;
+    text-align: auto;
 }
 
 dl p{
     font: bold large auto, auto;
+    text-align: auto;
 }
 
+div{
+    display: inline-block;
+    display: flex;
+    justify-content: space-around
+}
+
+.e1{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.e2{
+    font-weight: bold;
+    font-size: x-large;
+}
 /* dt, dl, dd{
     border: 1px solid black;
 } */
