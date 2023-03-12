@@ -1,128 +1,159 @@
+body {
+    margin: auto;
+    padding: 50px;
+    position: relative;
+    justify-content: stretch;
+    width: max(50%, 450px);
+    background-color: rgb(251, 237, 210);;
+    color: rgb(22, 4, 69);
+}
 
-ul, ol{
-    
-    width: max(50%, 500px);
+h1 {
+    color: rgb(108, 41, 177);
+    background-color: rgb(251, 237, 210);
+    border-right: 5px solid rgb(227, 166, 33);
+    border-bottom: 10px solid rgb(227, 166, 33);
+    border-top: 1px solid rgb(227, 166, 33);
+    border-radius: 25px;
+    text-align: center;
+    /* width: max(80%, 500px); */
+    margin: auto;
+    font-size:xx-large;
+}
+
+section, main>div{
+    border-color:rgb(244, 191, 75);
+    border-style: dotted;
+    border-width: 20px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+#imgVene{
+    width: 200px;
+    float: right;
+    position: relative;
+    bottom: 10px;
+}
+
+#imgMilitary{
+    width: 200px;
+    float: left;
+    position: relative;
+    bottom: 50px;
+    margin-right: 20px;;
+}
+
+#imgTech{
+    width: 175px;
+    float: right;
+    position:relative;
+    bottom: 50px;
+    left: 10px;
+}
+
+section article:nth-child(2){
+    margin-top: 100px;
+} 
+
+section article:nth-child(3){
+    margin-top: 90px;
+} 
+section article:nth-child(4){
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* dl, ol{
+    width: 30%;
+} */
+
+main>div:nth-of-type(1){
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: auto;
+    margin-top: 50px;
+}
+
+#quiz{
+    display: flex;
+    justify-content: space-around;
+    padding:20px 0px;
+}
+
+#quizQ *{
+    padding: 5px 0px;
+    text-align: center;
+}
+
+ul li{
+    padding: 5px 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+button{
+    margin-left:70px
+}
+
+#initialWord{
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 ol {
     list-style-position: inside;
     list-style-type: decimal;
+    /* margin-left: 25px; */
 }
 
-ul li {
-    /* border: 1px solid rgb(0, 0, 0); */
-    padding: 5px;
+ol li{
+    margin-left: 15px;
+    margin: 15px 0px;
 }
 
-ol li {
-    /* border: 1px solid rgb(0, 0, 0); */
-    padding: 5px;
-}
-
-h1 {
-    color: rgba(0, 101, 201,1);
-    background-color: rgb(255, 228, 179);
-    border-right: 5px solid sandybrown;
-    border-bottom: 8px solid sandybrown;
-    border-radius: 25px;
+ol li:first-child{
+    list-style-type: none;
+    margin-left: -10px;
     text-align: center;
-    width: max(50%, 500px);
-    font-size:xx-large;
-    /* margin-top: 25px; */
-    padding-right: 5px;  /* HOW DO I SHIFT JUST THE CONTENT. RIGHT NOW TEXT ALIGN right IS TOO AGGRESSIVE */
-    height: 1em; 
-    position: relative;
-    margin: 5px;
-    position: absolute;
-    top: 0%;
-    left: 25%;
-    right: -25%;
-}
-
-header, main {
-    margin: 10px 50px;
-    background-color: coral;
-   justify-content: stretch;
-}
-
-#header-p {
-    /* width: max(50%, 500px); */
-    margin-top: 50px;
-    text-align: center;
-    text-decoration: solid;
-    font-size: x-large;
-    font-weight: bold;
-
-
-}
-
-#list-p{
-    font: bold large auto, auto;
-    margin-bottom: 15px;
-}
-
-main p {
-    width: max(50%, 500px);
-    margin-top: 20px;
-    color: blueviolet;
-}
-
-h2{
-    font-size:larger;
-    font-style: italic;
-    color: green;
-    margin-top: 35px;
-}
-
-button{
-    margin: 10px 0px;
-}
-
-
-dt{
-    padding: 5px;
-    font: bold medium auto, auto;
-    text-align: auto;
-
+    font-size: large;
 }
 
 dd {
-    padding: 5px 40px;
     text-align: auto;
-    display: flex;
 }
 
-dl{
-    margin: 10px 0px;
+dt{
+    padding: 10px;
+    font: bold medium auto, auto;
     text-align: auto;
 }
 
 dl p{
-    font: bold large auto, auto;
+    font-weight: 900;
     text-align: auto;
+    margin-left: -20px;
+    margin-top: 10px;
+    text-decoration: underline double 2px;
+}
+button{
+    width: 130px;
+    height: 75px;
+    border-radius: 8px;
+    background-color: rgb(153, 86, 185);
+    color: aliceblue;
+    position: relative;
+    right: 40px;
 }
 
-div{
-    display: inline-block;
-    display: flex;
-    justify-content: space-around
-}
+button:active {
+    background-color: rgb(244, 220, 255);
+    color: gray;
+  }
 
-.e1{
-    font-weight: bold;
-    font-size: x-large;
+#list-p{
+    font-weight: bolder;
 }
-
-.e2{
-    font-weight: bold;
-    font-size: x-large;
-}
-/* dt, dl, dd{
-    border: 1px solid black;
-} */
-
-/* *{
-    border : 1px solid rgb(191, 0, 0); WHY DIDN'T THIS WORK FOR THE header p ELEMENT 
-    WHY DID APPLYING THIS AT THEN WITH A RANDOM PROPERTY RESET EVERYTHING except ul
-    padding-left: 10px;
-} */

@@ -22,14 +22,14 @@ function questionOne() {
     if (ans === 'N' || ans === 'n') {
     // console.log('Correct')
       alert('CORRECT');
-      document.getElementById('li1').style.color = 'rgba(241, 255, 251, 1)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
-      document.getElementById('li1').style.backgroundColor = 'rgb(6, 101, 23)';
+      document.getElementById('li1').style.color = 'rgb(22, 4, 69)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
+      document.getElementById('li1').style.backgroundColor = 'rgb(236, 249, 219)';
       return 1;
     } else if (ans === 'Y' || ans === 'y') {
     // console.log('Incorrect')
       alert('Sorry... that is wrong');
-      document.getElementById('li1').style.color = 'rgb(255, 200, 200)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
-      document.getElementById('li1').style.backgroundColor = 'rgb(95, 5, 5)';
+      document.getElementById('li1').style.color = 'rgb(22, 4, 69)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
+      document.getElementById('li1').style.backgroundColor = 'rgb(254, 197, 207)';
       return 0;
     } else {
     // console.log('Nonsense answer')
@@ -51,14 +51,14 @@ function questionTwo() {
     if (ans === 'N' || ans === 'n') {
     // console.log('Correct')
       alert('Sorry... that is wrong');
-      document.getElementById('li2').style.color = 'rgb(255, 200, 200)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
-      document.getElementById('li2').style.backgroundColor = 'rgb(95, 5, 5)';
+      document.getElementById('li2').style.color = 'rgb(22, 4, 69)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
+      document.getElementById('li2').style.backgroundColor = 'rgb(254, 197, 207)';
       return 0;
     } else if (ans === 'Y' || ans === 'y') {
     // console.log('Incorrect')
       alert('CORRECT');
-      document.getElementById('li2').style.color = 'rgba(241, 255, 251, 1)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
-      document.getElementById('li2').style.backgroundColor = 'rgb(6, 101, 23)';
+      document.getElementById('li2').style.color = 'rgb(22, 4, 69)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
+      document.getElementById('li2').style.backgroundColor = 'rgb(236, 249, 219)';
       return 1;
     } else {
     // console.log('Nonsense answer')
@@ -79,14 +79,14 @@ function questionThree() {
     if (ans === 'N' || ans === 'n') {
     // console.log('Correct')
       alert('CORRECT');
-      document.getElementById('li3').style.color = 'rgba(241, 255, 251, 1)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
-      document.getElementById('li3').style.backgroundColor = 'rgb(6, 101, 23)';
+      document.getElementById('li3').style.color = 'rgb(22, 4, 69)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
+      document.getElementById('li3').style.backgroundColor = 'rgb(236, 249, 219)';
       return 1;
     } else if (ans === 'Y' || ans === 'y') {
     // console.log('Incorrect')
       alert('Sorry... that is wrong');
-      document.getElementById('li3').style.color = 'rgb(255, 200, 200)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
-      document.getElementById('li3').style.backgroundColor = 'rgb(95, 5, 5)';
+      document.getElementById('li3').style.color = 'rgb(22, 4, 69)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
+      document.getElementById('li3').style.backgroundColor = 'rgb(254, 197, 207)';
       return 0;
     } else {
     // console.log('Nonsense answer')
@@ -107,14 +107,14 @@ function questionFour() {
     if (ans === 'N' || ans === 'n') {
     // console.log('Correct')
       alert('Sorry... that is wrong');
-      document.getElementById('li4').style.color = 'rgb(255, 200, 200)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
-      document.getElementById('li4').style.backgroundColor = 'rgb(95, 5, 5)';
+      document.getElementById('li4').style.color = 'rgb(22, 4, 69)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
+      document.getElementById('li4').style.backgroundColor = 'rgb(254, 197, 207)';
       return 0;
     } else if (ans === 'Y' || ans === 'y') {
     // console.log('Incorrect')
       alert('CORRECT');
-      document.getElementById('li4').style.color = 'rgba(241, 255, 251, 1)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
-      document.getElementById('li4').style.backgroundColor = 'rgb(6, 101, 23)';
+      document.getElementById('li4').style.color = 'rgb(22, 4, 69)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
+      document.getElementById('li4').style.backgroundColor = 'rgb(236, 249, 219)';
       return 1;
     } else {
     // console.log('Nonsense answer')
@@ -136,14 +136,14 @@ function questionFive() {
     if (ans === 'N' || ans === 'n') {
     // console.log('Correct')
       alert('Would you really think that?');
-      document.getElementById('li5').style.color = 'rgb(255, 200, 200)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
-      document.getElementById('li5').style.backgroundColor = 'rgb(95, 5, 5)';
+      document.getElementById('li5').style.color = 'rgb(22, 4, 69)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
+      document.getElementById('li5').style.backgroundColor = 'rgb(254, 197, 207)';
       return 0;
     } else if (ans === 'Y' || ans === 'y') {
     // console.log('Incorrect')
       alert('YOU BET I AM!');
-      document.getElementById('li5').style.color = 'rgba(241, 255, 251, 1)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
-      document.getElementById('li5').style.backgroundColor = 'rgb(6, 101, 23)';
+      document.getElementById('li5').style.color = 'rgb(22, 4, 69)'; //https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_color2
+      document.getElementById('li5').style.backgroundColor = 'rgb(236, 249, 219)';
       return 1;
     } else {
     // console.log('Nonsense answer')
@@ -220,7 +220,7 @@ function questionSeven() {
     }
     if(i === 5){
       alert('No answer was correct!!');
-      alert('Here are all the options: ' + q7possible);
+      alert('Here are all the options: ' + q7possible.join(" "));
     }
   }
 }
