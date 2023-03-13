@@ -127,9 +127,10 @@ dd {
 }
 
 dt{
-    padding: 10px;
-    font: bold medium auto, auto;
-    text-align: auto;
+    padding: 10px 10px 10px 10px;
+    padding-left: -10px;
+    font: bold medium auto, large; 
+    text-align: left;
 }
 
 dl p{

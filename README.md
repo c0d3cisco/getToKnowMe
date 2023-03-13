@@ -16,6 +16,7 @@ I build an app that quizzes you over my bio and tells you how many you got right
 Lab2
 ![Screenshot of Lighthouse for Lab 02!](/screenshot/Screenshot01.png "Screenshot")
 ![Screenshot of Lighthouse for Lab 03!](/screenshot/Screenshot02.png "Screenshot")
+![Screenshot of Lighthouse for Lab 05b!](/screenshot/Screenshot03.png "Screenshot")
 
 ### Reflections and Comments
 
