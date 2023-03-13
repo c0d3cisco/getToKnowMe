@@ -10,10 +10,9 @@ body {
 
 h1 {
     color: rgb(108, 41, 177);
-    background-color: rgb(251, 237, 210);
-    border-right: 5px solid rgb(227, 166, 33);
-    border-bottom: 10px solid rgb(227, 166, 33);
-    border-top: 1px solid rgb(227, 166, 33);
+    background-color: rgb(222, 197, 248);
+    border-right: 5px solid rgb(108, 41, 177);
+    border-bottom: 10px solid rgb(108, 41, 177);
     border-radius: 25px;
     text-align: center;
     /* width: max(80%, 500px); */
